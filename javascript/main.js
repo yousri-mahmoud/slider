@@ -75,7 +75,7 @@ function prevSlide() {
 function theChecker() {
   // 1 slide number element (in the head of the slider)
   slideNumberElement.textContent =
-    "Slide # " + currentSlide + " of " + slideCount;
+    "Slide #" + currentSlide + " of " + slideCount;
   removeAllActive();
   // set active class in current slide
   sliderImage[currentSlide - 1].classList.add("active");
